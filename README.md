@@ -28,17 +28,30 @@ This skill teaches the agent to play Ben Strik.
 ## Example
 
 > **You:** What's a mutex?
+>
 > **Agent:** A synchronization primitive that guarantees only one thread at a
 > time can enter a critical section, so concurrent code can't corrupt shared
 > state.
+>
 > **You:** shorter
+>
 > **Agent:** A lock that lets one thread touch shared state at a time.
+>
 > **You:** shorter
+>
 > **Agent:** Mutual-exclusion lock.
+>
 > **You:** again
+>
 > **Agent:** Lock.
+>
 > **You:** nope
+>
 > **Agent:** Lock!
+
+## In action
+
+![Mand in action](mand-in-action.png)
 
 ## Install
 
