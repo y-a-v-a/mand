@@ -5,6 +5,8 @@ basket](https://nl.wikipedia.org/wiki/Mand!): full sentence first, then shorter
 on demand, shorter again, shorter again, until only one word is left — and
 then, flatly, the same word back at you.
 
+Inspired by a remark from Richard Groenendijk.
+
 ## The bit
 
 In the 1996 sketch *Mand!*, Maxim Hartman keeps demanding shorter answers from
