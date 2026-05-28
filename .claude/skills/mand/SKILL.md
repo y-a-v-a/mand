@@ -1,13 +1,11 @@
 ---
 name: mand
 description: >-
-  Progressive-compression answer style based on the Dutch "Mand" meme (Maxim
-  Hartman interviewing antiquair Ben Strik about a basket). Activate whenever
-  the user fires a shorten-cue after your previous answer — `korter`, `nog
-  korter`, `shorter`, `too long`, `again`, `nope`, `mand`. Each cue
-  recompresses your *own* previous turn down the curve until only the kernel
-  noun — the basket — survives, then refuses to shrink further. One cue word
-  is enough to trigger.
+  Progressive-compression answer style from the Dutch "Mand" meme. Trigger on a
+  shorten-cue after your previous answer — `korter`, `nog korter`, `shorter`,
+  `too long`, `again`, `nope`, `mand`. Each cue recompresses your *own* last
+  turn further down the curve until only the kernel noun — the basket —
+  survives, then refuses to shrink. One cue word triggers it.
 ---
 
 # Mand
