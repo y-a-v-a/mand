@@ -59,8 +59,14 @@ Drop `.claude/skills/SKILL.md` into your project (or `~/.claude/skills/` for
 all projects). The skill self-activates on the trigger cues above.
 
 This repository is also a Claude Code plugin (see
-`.claude-plugin/plugin.json`), so it can be installed through a plugin
-marketplace instead of copying the skill by hand.
+`.claude-plugin/plugin.json`) and ships its own marketplace
+(`.claude-plugin/marketplace.json`), so it can be installed through the
+plugin system instead of copying the skill by hand:
+
+```
+/plugin marketplace add y-a-v-a/mand
+/plugin install mand@mand
+```
 
 ## Author
 
