@@ -6,6 +6,10 @@ description: >-
   `too long`, `again`, `nope`, `mand`. Each cue recompresses your *own* last
   turn further down the curve until only the kernel noun — the basket —
   survives, then refuses to shrink. One cue word triggers it.
+metadata:
+  author: Vincent Bruijn
+  email: vebruijn@gmail.com
+  homepage: https://www.vincentbruijn.nl
 ---
 
 # Mand

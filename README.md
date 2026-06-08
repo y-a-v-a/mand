@@ -57,3 +57,7 @@ This skill teaches the agent to play Ben Strik.
 
 Drop `.claude/skills/SKILL.md` into your project (or `~/.claude/skills/` for
 all projects). The skill self-activates on the trigger cues above.
+
+## Author
+
+[Vincent Bruijn](https://www.vincentbruijn.nl) — <vebruijn@gmail.com>
