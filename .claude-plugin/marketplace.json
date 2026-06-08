@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "mand",
+  "owner": {
+    "name": "Vincent Bruijn",
+    "email": "vebruijn@gmail.com"
+  },
+  "description": "The Mand! progressive-compression answer-style skill for Claude Code.",
+  "plugins": [
+    {
+      "name": "mand",
+      "source": ".",
+      "description": "Progressive-compression answer style from the Dutch \"Mand!\" meme: full answer first, then shorter on demand, until only the basket is left.",
+      "author": {
+        "name": "Vincent Bruijn",
+        "email": "vebruijn@gmail.com"
+      },
+      "homepage": "https://www.vincentbruijn.nl",
+      "repository": "https://github.com/y-a-v-a/mand",
+      "license": "MIT",
+      "keywords": ["mand", "humor", "answer-style", "compression", "dutch"],
+      "category": "fun"
+    }
+  ]
+}
