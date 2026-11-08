@@ -55,18 +55,22 @@ This skill teaches the agent to play Ben Strik.
 
 ## Install
 
-Drop `.claude/skills/SKILL.md` into your project (or `~/.claude/skills/` for
-all projects). The skill self-activates on the trigger cues above.
-
-This repository is also a Claude Code plugin (see
-`.claude-plugin/plugin.json`) and ships its own marketplace
-(`.claude-plugin/marketplace.json`), so it can be installed through the
-plugin system instead of copying the skill by hand:
+This repository is a Claude Code plugin (see `.claude-plugin/plugin.json`)
+and ships its own marketplace (`.claude-plugin/marketplace.json`):
 
 ```
 /plugin marketplace add y-a-v-a/mand
 /plugin install mand@mand
 ```
+
+The skill self-activates on the trigger cues above. To invoke it explicitly,
+use `/mand:mand` (plugin skills are namespaced as `/<plugin>:<skill>`).
+
+To install by hand instead, copy the `skills/mand/` folder to
+`.claude/skills/mand/` in your project (or `~/.claude/skills/mand/` for all
+projects); it is then available as `/mand`.
+
+To try local changes, run `claude --plugin-dir .` from this repository.
 
 ## Author
 
