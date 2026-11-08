@@ -2,7 +2,6 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "mand",
   "description": "Progressive-compression answer style from the Dutch \"Mand!\" meme: full answer first, then shorter on demand, until only the basket is left.",
-  "version": "1.0.0",
   "author": {
     "name": "Vincent Bruijn",
     "email": "vebruijn@gmail.com",
@@ -11,6 +10,5 @@
   "homepage": "https://www.vincentbruijn.nl",
   "repository": "https://github.com/y-a-v-a/mand",
   "license": "MIT",
-  "keywords": ["mand", "humor", "answer-style", "compression", "dutch"],
-  "skills": "./.claude/skills/"
+  "keywords": ["mand", "humor", "answer-style", "compression", "dutch"]
 }
